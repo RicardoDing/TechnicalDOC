@@ -1,0 +1,91 @@
+├─mms-biz只在本服务中使用的service
+│  ├─src
+│  │  ├─main
+│  │  │  ├─java
+│  │  │  │  └─com
+│  │  │  │      └─xxx
+│  │  │  │          └─mms
+│  │  │  │              ├─biz
+│  │  │  │              │  ├─dao
+│  │  │  │              │  │  └─impl
+│  │  │  │              │  └─service
+│  │  │  │              │      └─impl
+│  │  │  │              ├─facade
+│  │  │  │              ├─service
+│  │  │  │              └─util
+│  │  │  └─resources
+│  │  │      └─META-INF
+│  │  │          ├─mybatis
+│  │  │          │  └─mapper
+│  │  │          │      └─mms
+│  │  │          └─spring
+│  │  └─test
+│  │      └─java
+│  │          └─com
+│  │              └─xxx
+│  │                  └─mms
+│  │                      ├─biz
+│  │                      ├─facade
+│  │                      └─service
+├─mms-common
+│  ├─src
+│  │  ├─main
+│  │  │  └─java
+│  │  │      └─com
+│  │  │          └─xxx
+│  │  │              └─mms
+│  │  │                  └─common
+│  │  │                      ├─constant
+│  │  │                      └─dataobject
+│  │  └─test
+│  │      └─java
+│  │          └─com
+│  │              └─xxx
+│  │                  └─mms
+│  │                      └─common
+├─mms-facade对外提供dubbo服务接口
+│  ├─src
+│  │  ├─main
+│  │  │  └─java
+│  │  │      └─com
+│  │  │          └─xxx
+│  │  │              └─mms
+│  │  │                  └─facade
+│  │  │                      ├─constant
+│  │  │                      ├─service
+│  │  │                      ├─dto
+│  │  │                      ├─enums
+│  │  │                      └─param
+│  │  └─test
+│  │      └─java
+│  │          └─com
+│  │              └─xxx
+│  │                  └─mms
+│  │                      └─facade
+└─mms-webapp对前端提供服务
+    ├─src
+    │  ├─main
+    │  │  ├─java
+    │  │  │  └─com
+    │  │  │      └─xxx
+    │  │  │          └─mms
+    │  │  │              └─web
+    │  │  │                  ├─controller
+    │  │  │                  │  ├─app
+    │  │  │                  │  └─third
+    │  │  │                  ├─param
+    │  │  │                  └─vo
+    │  │  ├─resources
+    │  │  │  └─META-INF
+    │  │  │      └─spring
+    │  │  └─webapp
+    │  │      └─WEB-INF
+    │  └─test
+    │      └─java
+    │          └─com
+    │              └─xxx
+    │                  └─mms
+    │                      ├─facade
+    │                      └─webapp
+    │                          └─controller
+    
